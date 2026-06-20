@@ -39,6 +39,13 @@ ul {
     background-color: transparent
 }
 
+.nav-list {
+    display: flex;
+    gap: 64px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
 .nav-list a {
     text-decoration: none;
     color: var(--color-primary-white);
@@ -50,4 +57,17 @@ ul {
 
 .hero-title {
     color: var(--color-primary-green);
+}
+.header {
+    background-color: gray;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
 }
